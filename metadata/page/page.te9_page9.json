@@ -1,0 +1,42 @@
+{
+  "_id": "page.te9_page9",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.te9_page9--radios.auto_name__29",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.te9_page9--radios.auto_name__29--radio.auto_value__22",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.te9_page9--radios.auto_name__29--radio.auto_value__22--email.auto_name__30",
+            "_type": "email",
+            "label": "email address",
+            "name": "auto_name__30"
+          },
+          "label": "Email",
+          "value": "auto_value__22"
+        },
+        {
+          "_id": "page.te9_page9--radios.auto_name__29--radio.auto_value__23",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.te9_page9--radios.auto_name__29--radio.auto_value__23--number.auto_name__31",
+            "_type": "number",
+            "label": "Phone number",
+            "name": "auto_name__31"
+          },
+          "hint": "Please provide a number where we can reach you during the week between 9am and 4pm",
+          "label": "Phone",
+          "value": "auto_value__23"
+        }
+      ],
+      "legend": "Please indicate your preferred method of contact",
+      "name": "auto_name__29"
+    }
+  ],
+  "heading": "Contacting you",
+  "lede": "If we need to contact you about your case how would you prefer us to do so?",
+  "url": "te9_page9"
+}

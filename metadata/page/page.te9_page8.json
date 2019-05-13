@@ -1,0 +1,79 @@
+{
+  "_id": "page.te9_page8",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.te9_page8--radios.auto_name__26",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.te9_page8--radios.auto_name__26--radio.auto_value__17",
+          "_type": "radio",
+          "label": "My self - I believe that the facts stated in this application are true.",
+          "value": "auto_value__17"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.te9_page8--radios.auto_name__26--radio.auto_value__18",
+          "_type": "radio",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "_id": "page.te9_page8--radios.auto_name__26--radio.auto_value__18--radios.auto_name__27",
+            "_type": "radios",
+            "items": [
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.te9_page8--radios.auto_name__26--radio.auto_value__18--radios.auto_name__27--radio.auto_value__19",
+                "_type": "radio",
+                "label": "An officer of the company",
+                "value": "auto_value__19"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.te9_page8--radios.auto_name__26--radio.auto_value__18--radios.auto_name__27--radio.auto_value__20",
+                "_type": "radio",
+                "label": "A partner of the firm",
+                "value": "auto_value__20"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.te9_page8--radios.auto_name__26--radio.auto_value__18--radios.auto_name__27--radio.auto_value__21",
+                "_type": "radio",
+                "label": "A litigation friend acting on behalf of a protected party within the meaning of the Mental Capacity Act 2005",
+                "value": "auto_value__21"
+              }
+            ],
+            "legend": "In which capacity are you signing the form?",
+            "name": "auto_name__27"
+          },
+          "label": "On behalf of the witness - The witness believes that the facts stated in this application are true.",
+          "value": "auto_value__18"
+        }
+      ],
+      "legend": "Are you completing this form yourself or on behalf of the witness?",
+      "name": "auto_name__26"
+    },
+    {
+      "_id": "page.te9_page8--text.auto_name__28",
+      "_type": "text",
+      "label": "Give your full name",
+      "name": "auto_name__28"
+    }
+  ],
+  "heading": "Statement of truth",
+  "lede": "Proceedings for contempt of court may be brought against you if you make or cause to be made a false statement in an application verified by a statement of truth without an honest belief in its truth.",
+  "url": "te9_page8"
+}

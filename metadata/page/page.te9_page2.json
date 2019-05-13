@@ -1,0 +1,41 @@
+{
+  "_id": "page.te9_page2",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.te9_page2--text.auto_name__1",
+      "_type": "text",
+      "label": "Penalty charge number",
+      "name": "auto_name__1",
+      "widthClassInput": "one-half"
+    },
+    {
+      "_id": "page.te9_page2--text.auto_name__2",
+      "_type": "text",
+      "label": "Vehicle registration number",
+      "name": "auto_name__2",
+      "widthClassInput": "one-half"
+    },
+    {
+      "_id": "page.te9_page2--text.auto_name__3",
+      "_type": "text",
+      "label": "Applicant",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.te9_page2--text.auto_name__4",
+      "_type": "text",
+      "label": "Location of contravention",
+      "name": "auto_name__4"
+    },
+    {
+      "_id": "page.te9_page2--date.auto_name__5",
+      "_type": "date",
+      "label": "Date of contravention",
+      "name": "auto_name__5"
+    }
+  ],
+  "heading": "Details about your penalty charge",
+  "lede": "You must ensure that all the following details are correctly entered from the form TE3 - Order for recovery of unpaid penalty charge.",
+  "url": "te9_page2"
+}

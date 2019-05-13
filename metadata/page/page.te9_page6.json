@@ -1,0 +1,97 @@
+{
+  "_id": "page.te9_page6",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.te9_page6--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.te9_page6--checkboxes--checkbox.auto_name__15",
+          "_type": "checkbox",
+          "label": "I did not receive the Notice to owner/Penalty charge notice",
+          "name": "auto_name__15"
+        },
+        {
+          "_id": "page.te9_page6--checkboxes--checkbox.auto_name__16",
+          "_type": "checkbox",
+          "label": "I made representations about the penalty charge to the enforcing authority concerned within 28 days of the service of the notice to owner, but did not receive a rejection notice.",
+          "name": "auto_name__16"
+        },
+        {
+          "_id": "page.te9_page6--checkboxes--checkbox.auto_name__17",
+          "_type": "checkbox",
+          "label": "I appealed against the local authority's decision to reject my representation, within 28 days of service of the rejection notice, but have had no response to my appeal.",
+          "name": "auto_name__17"
+        },
+        {
+          "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18--group",
+            "_type": "group",
+            "components": [
+              {
+                "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18--group--date.auto_name__19",
+                "_type": "date",
+                "label": "Date it was paid",
+                "name": "auto_name__19"
+              },
+              {
+                "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18--group--radios.auto_name__20",
+                "_type": "radios",
+                "items": [
+                  {
+                    "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18--group--radios.auto_name__20--radio.auto_value__5",
+                    "_type": "radio",
+                    "label": "Cash",
+                    "value": "auto_value__5"
+                  },
+                  {
+                    "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18--group--radios.auto_name__20--radio.auto_value__6",
+                    "_type": "radio",
+                    "label": "Cheque",
+                    "value": "auto_value__6"
+                  },
+                  {
+                    "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18--group--radios.auto_name__20--radio.auto_value__7",
+                    "_type": "radio",
+                    "label": "Debit card",
+                    "value": "auto_value__7"
+                  },
+                  {
+                    "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18--group--radios.auto_name__20--radio.auto_value__8",
+                    "_type": "radio",
+                    "label": "Credit Card",
+                    "value": "auto_value__8"
+                  }
+                ],
+                "legend": "How did you pay?",
+                "name": "auto_name__20"
+              },
+              {
+                "_id": "page.te9_page6--checkboxes--checkbox.auto_name__18--group--text.auto_name__21",
+                "_type": "text",
+                "label": "To whom was it paid?",
+                "name": "auto_name__21"
+              }
+            ]
+          },
+          "label": "The penalty charge has been paid in full.",
+          "name": "auto_name__18"
+        }
+      ],
+      "legend": "Tick all boxes that apply",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "Your statement",
+  "show": {
+    "identifier": "auto_name__14",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "url": "te9_page6"
+}

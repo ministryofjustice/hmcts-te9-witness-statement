@@ -1,0 +1,64 @@
+{
+  "_id": "page.te9_page3",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.te9_page3--text.auto_name__6",
+      "_type": "text",
+      "hint": "Respondent",
+      "label": "Your full name",
+      "name": "auto_name__6"
+    },
+    {
+      "_id": "page.te9_page3--content",
+      "_type": "content",
+      "html": "### Your address ###"
+    },
+    {
+      "_id": "page.te9_page3--text.auto_name__7",
+      "_type": "text",
+      "label": "Building name",
+      "name": "auto_name__7",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.te9_page3--text.auto_name__8",
+      "_type": "text",
+      "label": "Number and street name",
+      "name": "auto_name__8",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "_id": "page.te9_page3--text.auto_name__9",
+      "_type": "text",
+      "label": "Town",
+      "name": "auto_name__9"
+    },
+    {
+      "_id": "page.te9_page3--text.auto_name__10",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__10",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.te9_page3--text.auto_name__11",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__11",
+      "widthClassInput": "one-third"
+    }
+  ],
+  "heading": "Your details (the respondent)",
+  "url": "te9_page3"
+}
